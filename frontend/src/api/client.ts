@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://192.168.3.49:3000';
+const API_BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'http://localhost:3000';
 
 class ApiClient {
   private baseUrl: string;
