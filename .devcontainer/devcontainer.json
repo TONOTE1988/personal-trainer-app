@@ -1,0 +1,20 @@
+{
+  "name": "Personal Trainer App",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "postCreateCommand": "cd backend && npm install && npm run db:generate && npm run db:push && cd ../frontend && npm install",
+  "forwardPorts": [3000, 8081],
+  "portsAttributes": {
+    "3000": { "label": "Backend API" },
+    "8081": { "label": "Frontend" }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "prisma.prisma"
+      ]
+    }
+  }
+}
+

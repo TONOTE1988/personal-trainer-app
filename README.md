@@ -1,5 +1,7 @@
 # 💪 パーソナルトレーナーアプリ MVP
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/TONOTE1988/personal-trainer-app)
+
 無料テンプレート＋チケット課金でAIメニュー生成するフィットネスアプリ
 
 ## 機能
